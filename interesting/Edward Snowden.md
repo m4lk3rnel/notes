@@ -1,0 +1,1 @@
+![[snowden_chatgpt.png]]

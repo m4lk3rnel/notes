@@ -1,0 +1,1 @@
+https://www.blackduck.com/glossary/what-is-sast.html

@@ -1,0 +1,2 @@
+ 
+awk -F: '$3 >= 1000 && $3 < 65534 {print $1}' /etc/passwd | tee /tmp/filtered_users.txt | wc -l (creates a txt file in /temp and 'wc -l' displays the number of non-root, non-service, non-daemon users)

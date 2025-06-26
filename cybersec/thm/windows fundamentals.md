@@ -1,0 +1,7 @@
+-  modern versions of windows use **NTFS** (New Technology File System)
+-  before NTFS there was **FAT16**/**FAT32**(File Allocation Table)
+-  in case of a failure, NTFS can repair files/folders using information stored in a log file. FAT can't do that.
+-  malware writers have used ADS (Alternated Data Streams) to hide data.
+- `%windir%` system environment variable for the `Windows` directory. Another example of system environment variable`%appdata%`
+- The `System32` folder holds important files that are crucial for the operating system.
+-  windows key + R -> run `lusrmgr.msc` for managing users

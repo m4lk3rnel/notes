@@ -1,0 +1,1 @@
+- CVE stands for Common Vulnerabilities and Exposures. It is a standardized system for identifying and cataloging known security vulnerabilities in software and hardware. (via ChatGPT)

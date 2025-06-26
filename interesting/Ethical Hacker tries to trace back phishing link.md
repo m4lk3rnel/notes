@@ -1,0 +1,14 @@
+- https://www.youtube.com/watch?v=OMv3LVBLhX0
+- the attacker used [Vercel](https://vercel.com/) to deploy and host the phishing page.
+- `curl -i example.com` - show headers.
+- `dig` command was used for getting info from the DNS servers. It also returns the IP address associated with the domain specified.
+	-  `dig example.com`
+	-  `dig example.com A` (IPv4)
+	-  `dig example.com AAAA` (IPv6)
+	- `dig example.com MX` (Mail Exchange)
+	- `dig example.com NS` (Name server)
+	- `dig +trace example.com` - more info
+	- `dig +short example.com` - short output
+- `shodan` was used to get more info from the IP
+-  `theHarvester`
+-  `zphisher`

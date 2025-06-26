@@ -1,0 +1,3 @@
+- "In computer networking, a **port** is a numerical identifier in the transport layer protocols (like TCP or UDP) used to distinguish different types of network services running on a device. Think of a **port** like an **apartment number** in a building. The **IP address** is the building's address, and the **port** tells data which specific service (or "apartment") it should go to on that device." via ChatGPT
+
+- Port forwarding is **a method used in computer networking to allow external devices to connect to devices on a private network**. It works by redirecting communication requests from an external IP address and port to an internal IP address and port on a private network, such as a home or office network.

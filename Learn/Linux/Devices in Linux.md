@@ -1,0 +1,19 @@
+- https://www.youtube.com/watch?v=04F2sH1N7go
+- everything is a file in Linux including **devices**.
+- the kernel loads the `driver` (a program) for the device so it can communicate with the device.
+- a driver is a **kernel module** but not all **kernel modules** are **drivers**.
+- a program called `udev` or `udevadm` (device administrator) creates a file in `/dev/`
+- no file operation can be applied on a **device file**. The kernel will apply a **driver operation** instead. (duh)
+- two types of devices:
+	- **character devices**
+		- examples:`/dev/random`, `/dev/tty`, `/dev/tty50`
+		- transfers data as a **stream of bytes**.
+		- no **random access**. data is read/written in sequence.
+		- really cool, you can generate a random password with:
+			- `head -c 16 /dev/urandom | base64`
+		- check available entropy: `cat /proc/sys/kernel/random/entropy_avail` 
+	- **block devices** 
+		- examples: HDD, USB flash drives.
+		- transfers data in **fixed-sized blocks** of bytes. (e.g. 512 bytes, 4KB)
+		- **random access** - you can seek to a specific block and read/write.
+		- `lsblk` - list all block devices and their mount points. (HDD, USB)

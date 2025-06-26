@@ -1,0 +1,2 @@
+- Google Cloud is the cloud infrastructure many apps like `Spotify`.
+- if Google Cloud go down so does Spotify.

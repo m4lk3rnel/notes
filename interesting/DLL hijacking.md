@@ -1,0 +1,9 @@
+- John Hammond: https://www.youtube.com/watch?v=uY8BpZBF2f0
+- also called **DLL sideloading**. [[malicious dll sideloading]]
+- "Tricking a legitimate/trusted application into loading an arbitrary library and running arbitrary code."
+- Used for **Execution**, **Persistence** and **Privilege Escalation**.
+- ![[dll_hijacking_techniques.png]]
+- the "Search Order" technique is the most common.
+- ![[dll_hijacking_search_order.png]]
+- [Process Monitor](https://learn.microsoft.com/en-us/sysinternals/downloads/procmon) is a great tool to see which dll's an executable is trying to load.
+- https://hijacklibs.net/

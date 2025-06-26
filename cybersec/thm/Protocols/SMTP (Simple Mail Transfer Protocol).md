@@ -1,0 +1,1 @@
+- Simple Mail Transfer Protocol (SMTP) is a protocol used to send the email to an SMTP server, more specifically to a Mail Submission Agent (MSA) or a Mail Transfer Agent (MTA).

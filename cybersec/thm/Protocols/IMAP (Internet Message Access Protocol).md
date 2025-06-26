@@ -1,0 +1,1 @@
+- The Internet Message Access Protocol (IMAP) is a protocol for receiving email. Protocols standardize technical processes so computers and servers can connect with each other regardless of whether or not they use the same hardware or software.

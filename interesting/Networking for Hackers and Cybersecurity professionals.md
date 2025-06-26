@@ -1,0 +1,6 @@
+- https://www.youtube.com/watch?v=Xgwph7kERps
+- [Character Generator Protocol (CHARGEN)](https://en.wikipedia.org/wiki/Character_Generator_Protocol)
+- [IANA port numbers](https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml)
+- [Ephemeral Port](https://en.wikipedia.org/wiki/Ephemeral_port)
+- ![[IMB_understanding_sockets.png]]
+- https://www.ibm.com/docs/en/zos/2.4.0?topic=concepts-understanding-sockets

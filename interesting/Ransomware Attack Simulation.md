@@ -1,0 +1,4 @@
+- https://www.youtube.com/watch?v=O36wWU4TfrI
+- [Mailinator](https://www.mailinator.com/) 
+- ![[ransomware_attack_simulation.png]]
+- [malware embedded in a word document](https://www.sentinelone.com/blog/malware-embedded-microsoft-office-documents-dde-exploit-macroless/)

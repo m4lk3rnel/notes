@@ -1,0 +1,1 @@
+-  Group Policy Object (GPO) is a feature in Windows Server that allows administrators to control user and computer settings across the network. It provides a centralised way to manage and configure operating systems, applications, and user settings.

@@ -1,0 +1,1 @@
+- `swaks --to victim@example.com --from yourname@example.com --server smtp.example.org`

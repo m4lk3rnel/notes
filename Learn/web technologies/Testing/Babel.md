@@ -1,0 +1,4 @@
+-  Used for `transpiling` modern `javascript` (`EcmaScript 6` or **ES6**) that has features like: **arrow functions**, **async/await**,  to ES5 for old browsers compatibility. The `@babel/preset-env` can be used 
+-  `@babel/preset-typescript` - is used to transform typescript syntax to a syntax that `node` can understand.
+-  `@babel/preset-react` - is used to transform react syntax (`jsx`) to a syntax that `node` can understand.
+- 

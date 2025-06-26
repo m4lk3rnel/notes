@@ -1,0 +1,7 @@
+-  you can use `msfconsole` for `metasploit`. You can search for vulnerabilities using `search`, for example: `msf6 > search wordpress 5.0`. `use` for using an exploit.
+-  I had to specify the `tun0` (vpn) interface IP for the `rce` to work.
+- `smbmap` - samba share enumerator. example `smbmap -H [host]`. You can also use `smbclient -L //blog.thm`
+- `smbget --recursive smb://blog.thm/BillySMB` - get all the files on the drive. you can also use `smbclient //blog.thm/BillySMB` to access and interact with the server, then use `get` to get the specified file.
+-  `export TERM=xterm` - you will now be able to use `clear`
+-  for the privilege escalation part (`root.txt` in `/root`) there was an executable in the `sbin` folder called `checker` , by doing a bit of reverse engineering on the executable (`ltrace` can be used as well) you could tell that `checker` uses an env variable called `admin` . By using `export admin=1` you could gain root privileges and get access to `/root` folder.
+- the `user.txt` file was found in `/media/usb` folder.

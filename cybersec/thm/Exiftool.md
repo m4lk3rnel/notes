@@ -1,0 +1,1 @@
+-  display `EXIF` data (metadata of an image)

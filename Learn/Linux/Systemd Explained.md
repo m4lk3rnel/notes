@@ -1,0 +1,23 @@
+- https://www.youtube.com/watch?v=Kzpm-rGAXos
+-  "init system" is a type of process. (the most important)
+- `systemd` is an "init system" and it is the first process that starts when booting. (PID: 1)
+-  process scheduler?
+- **unit** manager
+- types of units:
+	- **Service** unit
+	- ![[service_unit_systemd_chatgpt.png]]
+	- **Timer** unit (similar to a cron job):
+	- ![[systemd_timer_unit.png]]
+	- **Socket unit**
+	- ![[systemd_socket_unit.png]]
+	- **Mount** unit:
+	- ![[systemd_mount_unit.png]]
+	- **Target** unit
+	- ![[systemd_target_unit.png]]
+- `systemctl` can be used to communicate with the `systemd` process. 
+	-  `systemctl start apache2`
+	-  `systemctl enable apache2`
+- `systemd` config files locations:
+	-  `/etc/systemd/system`
+	- `/run/systemd/system`
+	- `/lib/systemd/system`

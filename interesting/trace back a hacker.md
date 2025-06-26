@@ -1,0 +1,35 @@
+- https://www.youtube.com/watch?v=Us-l2uAI4uo
+- `whois <domain>`
+- `dig ANY <domain>`
+- `curl -I <url>` - include headers
+	-  `-v` - verbose
+- `wget --spider -r -nd -l 1 -A html <url>`
+	- `--spider` - don't download anything
+	- `-nd` - don't create directories
+	- `-np` - don't ascent to the parent directory
+	- `-l` - maximum recursion depth 
+	- `-A` - comma-separated list of accepted extensions
+- `curl -X POST --data-urlencode "url=https://example.com" "https://www.virustotal.com/vtapi/v2/url/report?apikey=YOUR_API_KEY"`
+	- you need an api key from [virustotal](https://virustotal.com)
+- `firejail --noprofile firefox <url>` - sandbox?
+- `wget -E -H -k -K -p <url>` 
+	- `-E` - save HTML/CSS documents with proper extensions
+	- `-H` - go to foreign hosts when recursive
+	- `-k` - make links in downloaded HTML or CSS point to local files
+	- `-K` - before converting file `X`, back up as `X.orig`
+	- `-p` - get all images, etc. needed to display HTML page
+ - `geoiplookup <ip>`
+ - `traceroute <ip>`
+ - `host example.com` - DNS lookup utility
+ - `nslookup example.com` - name server utility
+ - `curl https://ipinfo.io/<ip>/json`
+ - `subfinder -d <domain>`
+ - `assetfinder <domain>`
+ - `curl -s "https://api.hackertarget.com/reverseiplookup/?q=<URL>"`
+ - `curl -s "https://securitytrails.com/domain/<DOMAIN>/history/a"`
+ - `curl -s "https://crt.sh/?q=<DOMAIN>&output=json" | jq .`
+	 - `jq`- JSON processor
+- `https://securitytrails.com/domain/example.com/dns` - DNS records
+- `nikto -h <url>`
+- `shodan search <domain>` - you need an api key
+- `dirb <url>` - enumerate directories

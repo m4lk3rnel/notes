@@ -1,0 +1,1 @@
+- In Kerberos, a Ticket Granting Ticket (TGT) serves as a user's proof of authentication and allows a user to request service tickets from the KDC, which can then be used to connect to services across the network.

@@ -1,0 +1,2 @@
+- **instruction pipelining** is a technique used for **instruction-level parallelism** within a **CPU**
+- [Wikipedia](https://en.wikipedia.org/wiki/Instruction_pipelining)

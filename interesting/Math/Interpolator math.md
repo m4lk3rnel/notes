@@ -1,0 +1,2 @@
+
+Interpolator math refers to the process of determining or estimating the value of a function at a specific point, given certain known values of the function at other points. This is achieved by constructing a continuous function, known as the interpolant, that passes through the known data points.

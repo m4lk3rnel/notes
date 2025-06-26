@@ -1,0 +1,3 @@
+https://bugs.xdavidhu.me/google/2021/01/11/stealing-your-private-videos-one-frame-at-a-time/
+
+Interesting: "A great thing to do in a situation like this, is to try to look for other products/services which are not your main target, but are somehow interacting with its resources internally. If they have access to its resources, it might be possible that they don’t have every level of protection that the main product has."

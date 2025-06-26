@@ -1,0 +1,3 @@
+- technique used to redirect malicious traffic from its intended destination (like a Command-and-Control server) to a controlled system ("sinkhole")
+
+- [Wired](https://www.wired.com/story/what-is-sinkholing/): "Sinkholing is a technique for manipulating data flow in a network; you redirect traffic from its intended destination to the server of your choosing. It can be used maliciously, to steer legitimate traffic away from its intended recipient, but security professionals more commonly use sinkholing as a tool for research and reacting to attacks."

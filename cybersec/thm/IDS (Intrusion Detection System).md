@@ -1,0 +1,2 @@
+ -  Inspects network packets for select behavioural patterns or specific content signatures. It raises an alert whenever a malicious rule is met. 
+ -  Dividing the packets to smaller packets might help bypassing the [[IDS (Intrusion Detection System)]]. [[nmap (network mapper)]] can achieve this if `-f` or `-ff` option is used.

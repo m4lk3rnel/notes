@@ -1,0 +1,1 @@
+-  Simple Storage Service (S3) is a service provided by Amazon Web Services (AWS) that allows you to store data in a scalable and reliable way. Data is stored on buckets, which act as a folder in the cloud where you can store files, applications, backup information or anything you need.

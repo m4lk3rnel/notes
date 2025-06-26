@@ -1,0 +1,19 @@
+-  Secure Shell (SSH) refers to a cryptographic network protocol used in secure communication between devices. SSH encrypts data using cryptographic algorithms, such as Advanced Encryption System (AES) and is often used when logging in remotely to a computer or server.
+-  the ssh client will ask you to authenticate the server through the server's public key fingerprint (ED25519 algorithm is used for the fingerprint). Then the key will be saved, and next time you will be able to connect automatically.
+-  `ssh-keygen` is used to generate pair of keys (one public and one private) which are used for authenticating the user when logging in(no password required) 
+- Algorithms that `ssh-keygen` uses:
+	- **DSA (Digital Signature Algorithm)** is a public-key cryptography algorithm specifically designed for digital signatures.
+	- **ECDSA (Elliptic Curve Digital Signature Algorithm)** is a variant of DSA that uses elliptic curve cryptography to provide smaller key sizes for equivalent security.
+	- **ECDSA-SK (ECDSA with Security Key)** is an extension of ECDSA. It incorporates hardware-based security keys for enhanced private key protection.
+	- **Ed25519** is a public-key signature system using EdDSA (Edwards-curve Digital Signature Algorithm) with Curve25519.
+	- **Ed25519-SK (Ed25519 with Security Key)** is a variant of Ed25519. Similar to ECDSA-SK, it uses a hardware-based security key for improved private key protection.
+
+-  Treat your ssh private keys like passwords.
+-  The passphrase is used to decrypt your private key. it doesn't leave the system.
+-  Using tools like John the Ripper, you can attack an encrypted SSH key to attempt to find the passphrase, highlighting the importance of using a complex passphrase and keeping your private key private.
+-  Set the correct permissions for the key (600 or stricter). You will get a warning.
+- `ssh -i privateKeyFileName user@host`
+-  `~/.ssh` is the place for storing these keys. The `authorized_keys` holds public keys that are used for verifying your identity instead of passwords if key authentication is enabled.
+-  `sudo ufw allow 22`
+-  `sudo nano /etc/ssh/sshd_config` , uncomment `port 22` and `PermitRootLogin ... `
+- `ssh-keygen -t rsa -b 4996`

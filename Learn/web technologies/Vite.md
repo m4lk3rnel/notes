@@ -1,0 +1,1 @@
+`npm create vite@latest` - used for creating a vite project. 

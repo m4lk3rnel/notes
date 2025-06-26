@@ -1,0 +1,3 @@
+- press `Space` to change the instruction on the selected memory address.
+- `CTRL + G` - go to address
+- `ALT + A` - attach process

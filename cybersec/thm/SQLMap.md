@@ -1,0 +1,12 @@
+
+- "SQLMap is an automated tool for detecting and exploiting SQL injection vulnerabilities in web applications. It simplifies the process of identifying these vulnerabilities."
+- `sqlmap --update`
+- `sqlmap --help`
+- `sqlmap --wizard`
+- `--dbs` - flag for extracting database names, e.g. `sqlmap -u http://sqlmaptesting.thm/search/cat=1 --dbs`
+- `-D database_name --tables` - extract information about the tables of `database_name`
+- `-D database_name -T table_name --dump` - enumerate records in `table_name`
+- If you see any web application using GET parameters in the URLs to retrieve data, you can test that URL with the -u flag in the SQLMap tool.
+- `sqlmap -r intercepted_request.txt
+- `--drop-heuristic`
+- `--dbms=mysql` - specify a specific database management system (in this case: `mysql`)

@@ -1,0 +1,1 @@
+"Indicatorii de compromitere (IoC), ==în contextul securității cibernetice, sunt semne sau dovezi care sugerează că un sistem sau o rețea a fost compromisă sau atacată==. Acestea sunt evidențe digitale folosite pentru a identifica și investiga potențiale amenințări, ajutând echipele de securitate să răspundă eficient la incidente."

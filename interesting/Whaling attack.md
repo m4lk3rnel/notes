@@ -1,0 +1,1 @@
+- https://www.kaspersky.com/resource-center/definitions/what-is-a-whaling-attack

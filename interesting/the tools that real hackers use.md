@@ -1,0 +1,14 @@
+-  https://www.youtube.com/watch?v=KS9u-h90fPI
+-  `vssadmin.exe Delete Shadows /All /Quiet` - deletes the "shadow copy" of the file system that Windows creates so there's no chance of recovering data.
+-  `wbadmin` - the Windows backup command-line tool.
+-  `wbadmin delete backup -keepVersions:0 -quiet`
+-  `cmdkey.exe /list` - list all the credentials Windows stored. These credentials are used for Windows accounts, or Online accounts used by Windows.
+-  `%userprofile%` - variable that holds the "C:\Users\username" path.
+-  `findstr.exe` - basically `grep` in a Linux system.
+-  `taskkill /F /IM <process_name.exe>`
+-  `:loop` - give label to a piece of commands (somewhat like a function). Later you can use `goto loop`
+-  `TIMEOUT /T 30` - self-explanatory. timeout of 30 seconds.
+-  `@echo off` - turns off the command echoing.
+-  `reg delete/add <registry>`
+-  `Get-FileHash *` - get the SHA256 hash for all the files in the current directory. (powershell utility)
+-  `fl (Format-List)` - self-explanatory. Can be used with `Get-FileHash`: `Get-FileHash * | fl *` (also a powershell utility)

@@ -1,0 +1,1 @@
+`rustscan <url> -- A`

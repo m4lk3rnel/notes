@@ -1,0 +1,2 @@
+- enumerated all ports with `nmap`, found some open ports: `21` (ftp), `22` (ssh), `53` (domain), `1337` (http), `1883` (mosquitto), the only useful one was the http port: `1337`.
+- i enumerated the web server with `gobuster`, found `/admin`

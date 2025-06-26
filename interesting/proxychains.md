@@ -1,0 +1,2 @@
+- `proxychains <command>`
+- list of free proxies: https://spys.one/en/

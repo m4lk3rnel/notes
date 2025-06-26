@@ -1,0 +1,18 @@
+- `/boot` - contains Linux's kernel and the bootloader (you can find grub's configuration here)
+- `/bin` - contains binaries
+- `/dev` - "everything is a file" applies also to devices. This directory contains **device nodes**. Here is a list of all the devices the **kernel** understands.
+- `/etc` - here you can find system-wide configuration files. 
+	- `/etc/crontab` - for automated jobs.
+	- `/etc/fstab` - "a table of storage devices and their associated mount points". Persistent storage. Used when booting.
+	- `/etc/passwd` - a list of the user accounts.
+- `/home` - each user is given a directory in `/home`. Ordinary users can write files only in their home directories.
+- `/lib` - shared libraries files used by the core system programs. These are similar to **dynamic link libraries** (DLLs) in Windows.
+- `/lost+found` - "it is used in the case of a partial recovery from a file system corruption event. Unless something really bad has happened to your system, this directory will remain empty."
+- `/media` - mount points for removable media such as USB drives, CD-ROMs, and so on that are mounted automatically at insertion.
+- `/mnt` - contains mount points for removable devices that have been mounted manually.
+- `/opt` - used to install "optional" software.
+- `/proc` - here you can find a **virtual file system** managed by the kernel.
+	- real-time interface to the kernel and the system internals.
+	- the contents are dynamically generated from kernel data structures.
+	- exists only in memory, no disk space used.
+[TO BE CONTINUED]

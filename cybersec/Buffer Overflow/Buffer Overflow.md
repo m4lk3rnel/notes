@@ -1,0 +1,2 @@
+- https://www.youtube.com/watch?v=AD-iXWANggo
+- Runtime Bounds Checking

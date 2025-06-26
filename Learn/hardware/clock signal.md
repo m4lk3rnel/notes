@@ -1,0 +1,5 @@
+- very interesting
+- it is **digital signal** that tells the CPU, GPU, RAM, etc. when to **read**/**write** data
+- it can be **HIGH** or **LOW**
+- visual representation: `|‾‾|__|‾‾|__|‾‾|__|` (HIGH/LOW oscillation)
+- 4Ghz = 4 billion clock cycles per seconds

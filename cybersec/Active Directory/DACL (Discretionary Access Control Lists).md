@@ -1,0 +1,1 @@
+- Discretionary Access Control Lists are used by Windows systems to specify who can access a given resource. While they are often referenced when talking about files, they also apply to other components as registry keys, services and scheduled tasks.

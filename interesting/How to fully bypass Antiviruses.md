@@ -1,0 +1,5 @@
+-  for persistence:
+	- `C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp`
+	- `C:\Users\<User>\AppData\Roaming\Microsoft\Windows\Start Menu\Programs`
+-  https://cocomelonc.github.io/tutorial/2021/12/25/simple-malware-av-evasion-3.html
+- 

@@ -1,0 +1,1 @@
+- Piece of software that blocks or lets through network packets based on **firewall rules**.
