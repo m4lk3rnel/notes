@@ -1,0 +1,1 @@
+`diff` can be used to compare files (e.g. `diff passwords.old passwords.new`)

@@ -1,0 +1,2 @@
+- you can execute a command on a remote machine using the syntax: `ssh user@host [command]` 
+- even if `.bashrc` is configured to close the connection whenever you try to log in, the command will still be executed.
