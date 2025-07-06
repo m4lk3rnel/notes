@@ -16,7 +16,7 @@ base64.b64decode(b'SGk=')
 ```
 - in the terminal: 
 	- encode: `echo "Hi" | base64`
-	- decode: `echo "SGk== | base64 -d`
+	- decode: `echo "SGk==" | base64 -d`
 - [how base64 works](https://www.redhat.com/en/blog/base64-encoding)
 - decimal to hex: 
 ```python

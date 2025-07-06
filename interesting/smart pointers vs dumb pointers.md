@@ -1,0 +1,1 @@
+- "High level explanation: smart pointer tracks references to the object it points to and can be automatically garbage collected once it is no longer referenced. Dumb pointer (really just a normal pointer) doesn't do that and you have to manually track references and free memory", explanation by [VERSACE_GORILLA](https://www.twitch.tv/versace_gorilla)

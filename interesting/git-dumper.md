@@ -1,0 +1,2 @@
+- tool for dumping a git repository from a website (URL example: `http://example.org/.git`)
+- https://github.com/arthaud/git-dumper

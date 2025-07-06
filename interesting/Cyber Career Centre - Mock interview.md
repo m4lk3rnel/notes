@@ -1,0 +1,17 @@
+- https://www.youtube.com/watch?v=38lSXK0PPmU
+- interviewer questions: 
+	- news: 
+		 - cybersecurity insider
+		 - DNSC.ro
+		 - 0dayfans
+		 - 
+	- a big challenge you faced while in a pentesting?
+	- how would you approach penetration testing for a client that only gives you a port? (step by step)
+		- define the scope
+		- reconnaissance (nmap, maltego, theHarvester)
+		- vulnerability analysis 
+		- exploitation (metsploit, burp suite, cobalt strike)
+		- post-exploitation (mimikatz, powerview)
+		- reporting (dradis, serpico)
+		- retesting
+- https://en.wikipedia.org/wiki/Conficker
