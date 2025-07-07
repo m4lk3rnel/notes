@@ -1,0 +1,1 @@
+https://en.wikipedia.org/wiki/Dead_man%27s_switch?wprov=sfla1
