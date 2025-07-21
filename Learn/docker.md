@@ -8,4 +8,4 @@
 - `sudo docker pull alpine` - pull the alpine docker image.
 - `sudo docker run -d -t --name containername alpine` - **create and run** a container based on the **alpine image** 
 - `sudo docker exec -it containername bash` - enter a running container. 
-	- `bash` - the command is ran whenever you enter the container. Some containers might come with `bash` installed. You can use instead `sh`.
+	- `bash` - the command is ran whenever you enter the container. Some containers might not come with `bash` installed. You can use `sh` instead.

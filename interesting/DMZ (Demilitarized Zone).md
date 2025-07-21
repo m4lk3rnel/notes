@@ -1,0 +1,2 @@
+
+- ![[demilitarized_zone.png]]
