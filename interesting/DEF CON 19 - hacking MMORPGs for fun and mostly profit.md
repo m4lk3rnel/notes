@@ -1,0 +1,3 @@
+- https://www.youtube.com/watch?v=QoNdhlLPX-g
+- play with your ethernet cable. In some games, you can "teleport" by unplugging your ethernet cable and plugging it back. (lag hacking, [lag switch](https://noping.com/blog/what-is-a-lag-switch))
+- duping: the process of duplicating something, like an object

@@ -27,4 +27,4 @@
 		-  **buffer overflow**: happens when a local buffer: `char buf[10]` is written beyond its limits, possibly overwriting return addresses. Often exploited in security attacks.
 	- the **stack** memory is located to the top of the virtual memory and grows downwards.
 	- register for the stack memory (on the x86 architecture): 
-		- **ESP** -> stack pointer, always points to the top of the stack and moves downwards as the data is pushed into it
+		- **ESP** -> stack pointer, always points to the top of the stack and moves downwards as the data is pushed into it (e.g. you push a 4 byte argument, **ESP=ESP-4**)

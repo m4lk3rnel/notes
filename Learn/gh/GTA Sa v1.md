@@ -49,7 +49,6 @@ FARPROC func = GetProcAddress(LoadLibrary("d3d9.dll"), "EndScene");
 
 - try the dll proxy technique again. Maybe [MinimalDInput8Hook](https://github.com/pampersrocker/DInput8HookingExample/blob/master/MinimalDInput8Hook/MinimalDInput8Hook.cpp) can help.
 - dinput8.dll proxy: https://github.com/Jessyy/gtasa-dll-windowmode-mousefix/blob/master/DINPUT8.cpp
-- 
 - look more into https://github.com/ThirteenAG/Ultimate-ASI-Loader/blob/master/source/dllmain.cpp
 
 ---
@@ -60,3 +59,20 @@ FARPROC func = GetProcAddress(LoadLibrary("d3d9.dll"), "EndScene");
 - a **function pointer** is a pointer that stores the address of a function.
 - to read: https://www.codeproject.com/Articles/14040/Hooking-a-DirectX-COM-Interface
 - trampoline hook (inline function hooking): https://www.lrqa.com/en/insights/articles/windows-inline-function-hooking/
+
+---
+Graphics Stuff
+
+- a **framebuffer** is the image rendered in memory before it is displayed on the screen.
+- a **swap chain** is a series of **framebuffers** that can help avoid "flickering", stuttering and improves performance.
+	- **Double buffering** - a back buffer which is rendered in memory will be swapped with the front buffer, the screen (it will be displayed on the screen, it will be "Presented" to the screen)
+	- **Tripple buffering** - works like double buffering but you have 2 **back buffers**. Better performance.
+
+---
+
+RakNet RPC id, SA-MP: https://github.com/Brunoo16/samp-packet-list/wiki/RPC-List
+blast.hk - pretty based website
+https://www.youtube.com/watch?v=tK0O_ocwmsw
+
+very interesting, stack overflow exploit for the `server.cfg` file
+https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/fileformat/gta_samp.rb
