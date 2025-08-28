@@ -1,0 +1,8 @@
+- https://www.youtube.com/watch?v=lIQ-sd208FA
+- a `.evtx` file is a Windows XML Event Log file. 
+- [chainsaw](https://github.com/WithSecureLabs/chainsaw) was used to work with Windows Event Logs.
+- `/opt/chainsaw/chainsaw hunt *.evtx --sigma /opt/chainsaw/sigma/ --mapping /opt/chainsaw/mapping/sigma-event-logs-all.yml`
+- `/opt/chainsaw/chainsaw search 6264 *.evtx` (6264 - process id or `PID`)
+- `/opt/chainsaw/chainsaw dump *evtx --json > ../events.json`
+- `cat events.json | jq '.[]' -c`
+- `cat events.json | jq '.[]'`

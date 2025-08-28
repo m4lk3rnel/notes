@@ -1,0 +1,12 @@
+- **ufw** - **uncomplicated firewall** lets you configure the firewall on a linux machine.
+- `sudo apt install ufw`
+- `systemctl status ufw`
+- allow default rules for both outgoing and incoming:
+	- `ufw default allow outgoing`
+	- `ufw default allow incoming`
+- allow [[ssh (secure shell)]]: `ufw allow ssh` or `ufw allow 22`
+- `ufw status` , `ufw status numbered` - displays a number for each rule
+- `ufw enable`
+- allow [[HTTP (Hypertext Transfer Protocol)]]: `ufw allow http/tcp`
+- allow [[ssh (secure shell)]] only for a specific [[IP (internet protocol)]] address: `ufw allow from <ip> to any port 22 proto tcp`
+- `ufw delete <number>` - delete the rule which has the number `<number>`

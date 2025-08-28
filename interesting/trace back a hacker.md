@@ -6,7 +6,7 @@
 - `wget --spider -r -nd -l 1 -A html <url>`
 	- `--spider` - don't download anything
 	- `-nd` - don't create directories
-	- `-np` - don't ascent to the parent directory
+	- `-np` - don't ascend to the parent directory
 	- `-l` - maximum recursion depth 
 	- `-A` - comma-separated list of accepted extensions
 - `curl -X POST --data-urlencode "url=https://example.com" "https://www.virustotal.com/vtapi/v2/url/report?apikey=YOUR_API_KEY"`
