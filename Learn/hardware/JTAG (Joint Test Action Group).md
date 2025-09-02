@@ -1,0 +1,2 @@
+- An interface used to **program**, **test** and **debug** a chip. 
+- Can be used to **extract** firmware.

@@ -1,0 +1,6 @@
+- https://www.youtube.com/watch?v=wTl4vEednkQ
+- TPM (**Trusted Platform Module**) - is a chip on the motherboard that stores cryptographic keys for **encryption** and **decryption**.
+- TPM stores the Bitlocker key.
+- On boot, the key is sent to the CPU in cleartext, so the key can be sniffed.
+- [Low Pin Count Bus](https://en.wikipedia.org/wiki/Low_Pin_Count) is a protocol used for communication between the CPU and the TPM chip.
+- https://blog.scrt.ch/2021/11/15/tpm-sniffing/

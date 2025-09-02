@@ -1,0 +1,7 @@
+- Protocol for data exchange between two devices.
+- It uses the *TX* (transmitter) and the *RX* (receiver) pin.
+- Communication is:
+	- **Asynchronous**: the **baud rate** is established (how many bits per seconds can be exchanged), no shared clock signal is needed.
+	- **Serial**: data is sent one bit at a time.
+	- **Full-duplex**: data can be sent and received at the same time. 
+- [interesting](https://www.youtube.com/watch?v=P0O9sVRe15I)
