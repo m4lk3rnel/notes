@@ -1,0 +1,3 @@
+- Technique that involves a remote system that executes a subroutine or (Procedure or Function) and returns the result to the client.
+- The client code invokes some code (a Procedure) on another machine.
+- gRPC (developed by Google) is an implementation of RPC and it is used widely.

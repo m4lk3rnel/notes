@@ -1,0 +1,3 @@
+- `more` doesn't enter "command mode" if the text is **shorter** than the terminal size. But if we shrink the terminal it enters command mode.
+- if you're in command mode you can press `v` to open **vim**
+- you can use `:e /etc/passwd` to open a file in vim.

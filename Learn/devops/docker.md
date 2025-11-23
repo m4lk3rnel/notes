@@ -1,0 +1,11 @@
+- docker allows you to develop, run, ship applications in **containers**. 
+- docker containers are similar to virtual machines.
+- the docker engine is **not** a supervisor.
+- unlike **Type-1 hypervisors**, docker needs an operating system.
+- containers are much faster and lightweight than virtual machines.
+	- containers share the same **kernel**. (so you can't create a **Windows Server** container on an **Ubuntu** host)
+- setup docker on a ubuntu machine: https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository
+- `sudo docker pull alpine` - pull the alpine docker image.
+- `sudo docker run -d -t --name containername alpine` - **create and run** a container based on the **alpine image** 
+- `sudo docker exec -it containername bash` - enter a running container. 
+	- `bash` - the command is ran whenever you enter the container. Some containers might not come with `bash` installed. You can use `sh` instead.

@@ -1,0 +1,1 @@
+- a technique used for peer to peer communication behind NAT (network address translation) 
