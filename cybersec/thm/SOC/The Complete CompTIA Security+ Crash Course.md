@@ -1,0 +1,3 @@
+- https://www.youtube.com/watch?v=B3JSuOpn40A
+- https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.29.pdf
+- 

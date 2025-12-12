@@ -1,0 +1,3 @@
+- [AbuseIPDB](https://www.abuseipdb.com/) or [Cisco Talos Intelligence](https://talosintelligence.com/)- check if an IP is malicious.
+- escalate an incident to SOC Senior Analyst
+- 

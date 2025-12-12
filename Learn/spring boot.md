@@ -52,5 +52,14 @@
 private String appName;
 ```
 
-- dependency injection:
+
+### Dependency Injection
+- dependency injection: inject dependencies into an object
+- [Open-Closed principle](https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle)
+- you inject a dependency by:
+	- using the constructor (the recommended way)
+	- using a setter (you can end up getting "NullPointerException")
+
+### The Spring IOC Container
+- **bean** is just a regular Java **object** managed by spring (the IOC container). it can create objects and manage their lifecycle
 - 
