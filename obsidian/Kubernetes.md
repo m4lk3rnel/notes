@@ -1,0 +1,3 @@
+- a Kubernetes cluster containts:
+	- a **control plane**: the "brain" of the cluster that manages the nodes and workloads.
+	- **worker nodes**: the machines that run the actual applications in containers called pods. the **control plane** sends commands to these pods.

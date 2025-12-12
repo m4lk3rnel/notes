@@ -1,0 +1,3 @@
+ - [ ] Dockerfile
+- [x] migrate from Spring MVC to Spring Webflux
+- [x] response messages (e.g. user with id: x not found!)

@@ -1,0 +1,1 @@
+- A **subdomain** is a DNS-level address (e.g., `blog.example.com`) that separates a section of a website, while a **virtual host** is a server configuration that allows multiple websites (with different domain names) to run on a single machine.
